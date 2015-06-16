@@ -1,8 +1,9 @@
 
-var aboveHeight = $('.top_bar').outerHeight();
-$(window).scroll(function(){
-	if ($(window).scrollTop() > aboveHeight){
-	$('.top_bar').addClass('fixednav');
+// var aboveHeight = $('.top_bar').outerHeight();
+// $(window).scroll(function(){
+// 	if ($(window).scrollTop() > aboveHeight){
+// 	$('.top_bar').addClass('fixednav');
+
 //add padding to header so nav bar doesn't jump
 //turn off fixed nav @420 for mobile
 
@@ -15,9 +16,9 @@ var clickStayConnected
 var clickProjects
 var clickHome
 
-var connectedPositionFromTop = $('.contact').offset().top;
-var projectsPositionFromTop = $('.main_page').offset().top;
-var homePositionFromTop = $('header').offset().top;
+// var connectedPositionFromTop = $('.contact').offset().top;
+// var projectsPositionFromTop = $('.main_page').offset().top;
+// var homePositionFromTop = $('header').offset().top;
 
 $('.nav_connected').click(function () {
  $('body').animate({ scrollTop: (connectedPositionFromTop + 1) + 'px'});

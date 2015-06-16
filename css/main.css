@@ -71,7 +71,6 @@ p {
 }
 
 .hero_text{
-	padding: 2% 8%;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #ddd;
@@ -125,11 +124,7 @@ header{
 	-moz-background-size: cover;
 }
 
-.headerPadding{
-	padding: 46px;
-}
-
-.container, .hero_title, .connected{
+.container, .connected{
 	max-width: 1170px;
 	margin: 0 auto;
 }
@@ -186,21 +181,14 @@ nav ul li a{
 }
 
 .title{
-  width: 80%;
-  margin: 0 auto; 
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -60%);  
+  width: 100%;
+  margin: 200px auto 0px;
 }
 
 .discover{
-	position: absolute;
+	margin-top: 100px;
 	text-align: center;
 	font-size: 20px;
-	left: 50%;
-	bottom: 20%;
-	transform: translateX(-50%);
 }
 
 .discover img{
@@ -422,7 +410,7 @@ nav ul li a:active {
 
 	nav ul li {
   	margin-right: 20px;
-  }
+  	}
 
   h2, h3{
   	font-size: 3em;
@@ -476,9 +464,9 @@ nav ul li a:active {
 		position: relative;
 	}
 	.title{
-		position: absolute;
+/*		position: fixed;
 		top:30%;
-		transform: translate(-50%, -40%);  
+		transform: translate(-50%, -40%);  */
 	}
 	.hero_title{
 		font-size: 3em;
