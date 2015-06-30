@@ -1,63 +1,151 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Catherine Lynk</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/reset.css">
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400' rel='stylesheet' type='text/css'>	
-	<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="icon" 
-      type="image/png" 
-      href="img/fav_icon.png"/>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<body>
-	<header>
-		<section class="top_bar">
-				<div class="logo">
-					<img src="img/CL-Logo.png" alt="CL Logo">
-				</div>
-				<nav class="navigation">
-					<div id="mobileNav">
-						<a href="#"><img src="img/mobile_nav.png" width="24px" height="24px" alt="Mobile Nav"></a>
-					</div>
-				<div class="mobileNavList">
-					<ul>
-						<li class="nav_home"><a href="#">Home</a></li>
-						<li class="nav_projects"><a href="#">Work</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>				
-					</ul>
-				</div>
-				</nav>
-		</section>	
-	<section class="hero">
-			<div class="title">
-				<h1 class="hero_title">Coming Soon!</h1>
-				<p class="hero_text">Thank you for visiting my page. Please look out for portfolio updates soon.</p>
-			</div>	
-			<div class="discover">
-				<a href="#"><img src="img/mouse-icon.png">Cathy</a>
-			</div>	
-	</section>	
+    <title>Catherine Lynk</title>
+
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+<!-- Body -->
+  
+  <body>
+
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed"
+         data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/logo.png" class="img-responsive logo">
+        </a>
+       </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a class="nav_work" href="#">Work <span class="sr-only">(current)</span></a></li>
+        <!-- <li><a href="#">Resume</a></li> -->
+        <li><a href="#" class="nav_about">About</a></li>
+        <!-- <li><a href="#" class="nav_contact">Contact</a></li> -->
+       </ul>
+      </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+    </nav>
+
+
+  <div class="jumbotron">
+  <section class="container">
+    <div class="row headline">
+      <article  class="col-md-6 col-md-offset-3">
+      <h1 >Catherine Lynk</h1>
+      <p class="byline">User Experience Designer</p>
+      </article>
+    </div>
+  </section>
+  </div>
+
 </header>
-<footer class="copyright">
-	<p>Copyright &copy; Catherine Lynk 2015</p>
-</footer>
-<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>	
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
-</body>
+
+<main>
+
+<section class="container" id="work">
+    <h2> My Featured Work </h2>
+<!-- Package Zen -->
+  <div class="row PZall">
+    <article  class="col-md-10 col-md-offset-2">
+      <img alt="Package Zen" src="img/PackageZen.jpg" class="col-md-5 img-responsive PZimg">
+      <div class="PZtext col-md-5">
+      <h3> Package Zen </h3>
+      <h4> Interaction design and content strategy for a mobile package management solution for offices and mailrooms</h4>
+      </div>
+    </article>
+  </div>
+
+<!-- Anjoui -->
+  <div class="row Anjouiall">
+    <article  class="col-md-10 col-md-offset-2">
+      <div class="Anjouitext col-md-5">
+      <h3> Anjoui </h3>
+      <h4> UX research and interaction design for a peer-to-peer application that connects home cooks with local diners</h4>
+      </div>
+      <img alt="Anjoui" src="img/Anjoui.jpg" class="col-md-4 img-responsive Anjouiimg">
+    </article>
+  </div>
+
+<!-- Claims -->
+  <div class="row Claimall">
+    <article  class="col-md-10 col-md-offset-2">
+      <img alt="Claims" src="img/Claims.jpg" class="col-md-4 img-responsive Claimsimg">
+      <div class="Claimstext col-md-5">
+      <a href="claims/index.html">
+        <h3> Global Insurance Provider </h3>
+      </a>
+      <h4> Business analysis and interaction design for a commercial insurance provider</h4>
+      </div>
+    </article>
+  </div>
+
+<!-- Pulseband -->
+  <div class="row Bandall">
+    <article  class="col-md-10 col-md-offset-2">
+      <div class="Bandtext col-md-5">
+       <a href="pulseband/index.html">
+        <h3> Pulseband </h3>
+       </a>
+      <h4> UX research and interaction design for concept wearable heart monitor and mobile app </h4>
+      </div>
+      <img alt="Pulseband" src="img/Pulseband.jpg" class="col-md-4 img-responsive Bandimg">
+    </article>
+  </div>
+
+</section>
+
+<section class="container" id="Aboutme">
+  <div class="row">
+      <h2 class="Abouttitle"> About Me</h2>
+      <img alt="Cathy" src="img/Cathy.jpg" class="img-responsive Cathyimg">
+  </div>
+  <div class="row">
+    <div class="Abouttext col-md-8 col-md-offset-2">
+      <p> I love solving problems with creative solutions. As a user experience designer, I have the opportunity to collaborate with brilliant team members and turn ideas into meaningful products and services. My background in technology consulting and academic upbringing in Marketing and Information Systems has grounded me with the ability to think analytically and leverage data to drive business decisions. </p>
+      <p> My favorite place to think, and admittedly rest my mind, is on the Lakeshore running path in Chicago, Illinois. Thank you so much for visiting my page, and I hope to keep in touch! </p>
+    </div>
+  </div>
+</section>
+
+<section class="contactme">
+    <h2> Please Say Hello! </h2>
+    <h5><a class="email" href="mailto:catherine.lynk@gmail.com" target="_blank"> <span>catherine.lynk@gmail.com </span></a></h5>
+  <button type="button" class="btn btn-default btn-resume" href="#"> Resume</button>
+  <button type="button" class="btn btn-default btn-linkedin"href="#"><img alt="LinkedIn" src="img/linkedin.png" class="img-responsive" ></button>
+  <p class="copy"> Designed and created by Catherine Lynk © 2015 </p>
+</section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
