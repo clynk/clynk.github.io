@@ -1,0 +1,219 @@
+
+.jumbotron{
+	background: url(../img/background.jpg) no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	height: 100vh;
+}
+
+.btn {
+  border: 0px;
+  border-radius: 4px;
+}
+
+
+/* typography */
+
+html{
+	font-size: 24px;
+}
+
+body, p{
+	font-family:'Roboto', Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #000;
+}
+
+.jumbotron h1{
+	font-family:'Playfair Display', serif;
+	font-size: 5em;
+	line-height: 1.5;
+	letter-spacing: 4px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.byline{
+	font-family:'Playfair Display', serif;
+	font-size: 3em;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+
+.headline {
+  margin-top: 25%;
+}
+
+
+h2{
+	font-family:'Playfair Display', serif;
+	font-size: 3em;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+}
+
+h3{
+	font-family:'Playfair Display', serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+h4{
+	font-size: 1.2em;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+h5{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+
+/* Nav Bar*/
+
+.logo{
+	height: 100px;
+	width: auto;
+	margin-top: 5px;
+	-webkit-transition: all .3s; // Chrome
+    -moz-transition: all .3s; // Mozilla
+    -o-transition: all .3s; // Opera
+	transition: all .3s;
+}
+
+.logo_small{
+	height: 50px;
+	width: auto;
+	margin-top: 0px;
+	-webkit-transition: all .3s; // Chrome
+    -moz-transition: all .3s; // Mozilla
+    -o-transition: all .3s; // Opera
+	transition: all .3s;
+}
+
+.navbar-brand{
+	padding:0px;
+}
+
+.navbar-header{
+	padding-left:5%;
+}
+
+
+/* Copy */
+
+.myrole {
+	padding-left: 1%;
+}
+
+.myrole li {
+	padding-right: 3%;
+	margin-right: 6%;
+}
+
+
+.research_only{
+	/*background-color: #f8f8f8;*/
+	padding: 2% 0px;
+	margin: 4% 0px 2%;
+	width: 100%;
+}
+
+/* Images */
+
+.landscape{
+	max-height: 600px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.affinity{
+	background: url(img/affinity.jpg) no-repeat center center fixed;
+	padding: 0px 0px;
+	margin: 3% 0px 3%;
+	width: 100%;
+}
+
+.research_img{
+	margin-bottom: 3%;
+}
+
+.evaluation_title{
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.evaluation{
+	max-height: 400px;
+	margin-left: 15%;
+}
+
+.slider{
+	margin-bottom: 2%;
+}
+
+.appmap{
+	max-height: 500px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.dinerwires, .cookwires{
+	max-height: 500px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.prototype_title{
+	text-align: center;
+}
+
+.prototype{
+	max-height: 500px;
+	margin: 0 auto;
+}
+
+.results{
+	margin-top: 5%;
+}
+
+.uidesign{
+	position: relative;
+}
+
+.credits{
+	position: absolute;
+	z-index: 10;
+	margin-top: 48%;
+}
+
+/* Contact */
+
+footer{
+	background-color: #a7afc6;
+	margin: 0px;
+	text-align: center;
+	height: 20vh;
+}
+
+.btn-previous, .btn-next{
+	margin:4% 10% 0%;
+	}
+
+
+.copy{
+	font-size: 1em;
+	padding-top: 7.5%;
+	font-weight: 100;
+	color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
