@@ -33,7 +33,7 @@ body, p{
 	line-height: 1.5;
 	letter-spacing: 4px;
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 }
 
 .byline{
@@ -43,10 +43,9 @@ body, p{
 	padding-left: 10px;
 }
 
-.headline {
-  margin-top: 25%;
+.headline{
+	margin-top: 150px
 }
-
 
 h2{
 	font-family:'Playfair Display', serif;
@@ -72,9 +71,15 @@ h4{
 h5{
 	font-size: 1.5em;
 	font-weight: 300;
+	text-align: center;
 }
 
-
+h6{
+	font-family:'Playfair Display', serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #26586e;
+}
 
 /* Nav Bar*/
 
@@ -109,6 +114,7 @@ h5{
 
 /* Copy */
 
+
 .myrole {
 	padding-left: 1%;
 	margin-top: 3%;
@@ -120,92 +126,69 @@ h5{
 	text-align: center;
 }
 
+.questions{
+	text-align: center;
+	color:#26586e;
+}
+
+.panel-heading{
+	font-family:'Playfair Display', serif;
+	color:#26586e;
+}
 
 .research_only{
-	/*background-color: #f8f8f8;*/
-	padding: 2% 0px;
-	margin: 4% 0px 2%;
+	margin-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #eee;
 	width: 100%;
+}
+
+.wires_section, .slideshow{
+	margin-top: 4%;
 }
 
 /* Images */
 
-.landscape{
-	max-height: 600px;
+.shipping, .affinity{
+	max-height: 280px;
 	width: auto;
-	margin: 0 auto;
 }
 
-.affinity{
-	padding: 0px 0px;
-	margin: 3% 0px 3%;
-	width: 100%;
-}
-
-.research_img{
-	margin-bottom: 3%;
-}
-
-.evaluation_title{
-	text-align: center;
-	margin-bottom: 3%;
-}
-
-.evaluation{
-	max-height: 400px;
-	margin-left: 15%;
-}
-
-.slider{
-	margin-bottom: 2%;
-}
-
-.appmap{
-	max-height: 500px;
-	width: auto;
-	margin: 0 auto;
-}
-
-.dinerwires, .cookwires{
-	max-height: 500px;
-	width: auto;
-	margin: 0 auto;
-}
-
-.prototype_title{
-	text-align: center;
-}
 
 .prototype{
-	max-height: 500px;
+	max-height: 400px;
+	width: auto;
 	margin: 0 auto;
 }
 
-.results{
-	margin-top: 5%;
+.task{
+	margin: 0px;
+	padding: 0px;
 }
 
-.uidesign{
-	position: relative;
+.processmap{
+	max-height: 700px;
+	margin: 0 auto;
 }
 
-.credits{
-	font-size: .8em;
-	color: #555;
-	position: absolute;
-	z-index: 10;
-	margin-top: 48%;
-	padding-left: 6%;
+.arrowtest{
+	max-height: 400px;
+	margin: 0 auto;
 }
 
 /* Contact */
 
 footer{
 	background-color: #a7afc6;
-	margin: 0px;
+	margin: 2% 0px 0px;
 	text-align: center;
 	height: 20vh;
 }
+
+.btn-previous, .btn-next{
+	margin:4% 10% 0%;
+	}
 
 
 .copy{
@@ -217,5 +200,6 @@ footer{
 }
 
 a {
+  color: #000;
   text-decoration: none;
 }

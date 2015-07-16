@@ -1,6 +1,6 @@
 
 .jumbotron{
-	background: url(../img/Background.jpg) no-repeat center center fixed;	
+	background: url(../img/Background.jpg) no-repeat center center;	
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -69,17 +69,17 @@ h4{
 }
 
 h5{
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 300;
+	text-align: center;
 }
-
 
 /* Nav Bar*/
 
 .logo{
-	height: 100px;
+	height: 80px;
 	width: auto;
-	margin-top: 5px;
+	margin-top: 15%;
 	-webkit-transition: all .3s; // Chrome
     -moz-transition: all .3s; // Mozilla
     -o-transition: all .3s; // Opera
@@ -87,9 +87,9 @@ h5{
 }
 
 .logo_small{
-	height: 50px;
+	height: 40px;
 	width: auto;
-	margin-top: 0px;
+	margin-top: 15%;
 	-webkit-transition: all .3s; // Chrome
     -moz-transition: all .3s; // Mozilla
     -o-transition: all .3s; // Opera
@@ -108,18 +108,20 @@ h5{
 /* Copy */
 
 .myrole {
-	padding-left: 1%;
+  margin-top: 3%;
+  margin-left: 6.5%;
 }
 
 .myrole li {
-	padding-right: 3%;
-	margin-right: 4%;
+	margin-right: 6%;
+	text-align: center;
 }
 
 
 .discovery_only{
 	background-color: #eee;
-	padding: 2% 0px;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	margin: 4% 0px 2%;
 	width: 100%;
 }
@@ -143,7 +145,7 @@ h5{
 }
 
 .options{
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .options h5{
 	text-align: center;
@@ -153,7 +155,7 @@ h5{
 .options ul li{
 	max-width: 600px;
 	height: auto;
-	margin: 0 auto;
+	margin: 5% auto;
 }
 
 .solution_only{
@@ -188,8 +190,10 @@ footer{
 
 
 .copy{
-	font-size: 0.8em;
-	padding-top: 5%;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	padding-top: 7%;
+	font-weight: 100;
 	color: #fff;
 }
 
