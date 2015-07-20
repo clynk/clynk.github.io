@@ -201,3 +201,26 @@ a {
   color: #000;
   text-decoration: none;
 }
+
+
+@media screen and (max-width:480px){
+
+.logo{
+	height: 40px;
+	}	
+
+.jumbotron h1{
+	font-size: 3em;
+	line-height: 1.2;
+	letter-spacing: 0px;
+	}
+
+.headline {
+  margin-top: 20%;
+}
+
+.myrole li {
+	margin-top: 10%;
+}
+
+}

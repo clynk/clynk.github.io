@@ -1,4 +1,8 @@
 
+body {
+  position: relative;
+}
+
 .jumbotron{
 	background: url(../img/background.jpg) no-repeat center center fixed;	
 	background-size: cover;
@@ -102,6 +106,9 @@ h5{
 }
 /* Featured Projects */
 
+.featured_work{
+	padding-top: 30px;
+}
 
 .PZimg, .Anjouiimg, .Claimsimg, .Bandimg{
 	max-height: 290px;
@@ -215,5 +222,44 @@ a:hover {
 a:visited {
   text-decoration: none;
 }
+
+/*-------- Media Queries ----------*/
+
+@media screen and (max-width: 1024px){
+	}
+
+@media screen and (max-width: 768px){
+	}
+
+@media screen and (max-width:480px){
+
+.logo{
+	height: 40px;
+	}	
+
+.jumbotron h1{
+	font-size: 4em;
+	text-align: center;
+	line-height: 1.2;
+	}
+
+.byline{
+	font-size: 2em;
+	letter-spacing: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	text-align: center;
+	}
+
+.PZall, .Anjouiall, .Claimsall{
+	margin-top: 20%;
+	}
+}
+
+
+
+
+
+
 
 

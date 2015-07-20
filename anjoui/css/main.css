@@ -219,3 +219,31 @@ footer{
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width:480px){
+
+.logo{
+	height: 40px;
+	}	
+
+.jumbotron h1{
+	font-size: 3em;
+	line-height: 1.2;
+	letter-spacing: 0px;
+	}
+
+.headline {
+  margin-top: 95%;
+}
+
+.credits{
+	font-size: .6em;
+	margin-top: 45%;
+	padding-left: 10%;
+}
+
+.myrole li {
+		margin-top: 10%;
+	}
+	
+}
